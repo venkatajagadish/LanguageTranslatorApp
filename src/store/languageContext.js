@@ -20,7 +20,7 @@ export const LanguageContext = createContext({
   updateFromLanguage: () => {},
   updateToLanguage: () => {},
   updateFromText: () => {},
-  swipeLanguages: () => {},
+  swapLanguages: () => {},
 });
 
 export default function TranslationProvider({ children }) {
@@ -85,14 +85,14 @@ export default function TranslationProvider({ children }) {
     }
     setFromText(text);
   }
-  function swipeLanguages() {
+  function swapLanguages() {
     const from = fromLanguage;
     const to = toLanguage;
     if (from) {
       setToLanguage(from);
       setFromLanguage(to);
     } else if (
-      !detectLanguage.detectedLanguage &&
+      detectLanguage.detectedLanguage &&
       detectLanguage.detectedLanguage != "none"
     ) {
       setToLanguage(detectLanguage.detectedLanguage);
@@ -115,7 +115,7 @@ export default function TranslationProvider({ children }) {
     updateFromLanguage,
     updateToLanguage,
     updateFromText,
-    swipeLanguages,
+    swapLanguages,
   };
   return (
     <LanguageContext.Provider value={langCtxValue}>

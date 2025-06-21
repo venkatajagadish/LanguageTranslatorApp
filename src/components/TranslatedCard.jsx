@@ -5,7 +5,7 @@ import CopyText from "../ui/CopyText";
 import { useContext } from "react";
 import { LanguageContext } from "../store/languageContext";
 import { SUPPORTED_LANGUAGES } from "../utils/constants";
-import SwipeImage from "./../assets/Horizontal_top_left_main.svg";
+import swapImage from "./../assets/Horizontal_top_left_main.svg";
 
 let supportedLang = [
   ...SUPPORTED_LANGUAGES.map((lang) => {
@@ -18,8 +18,8 @@ export default function TranslatedCard() {
     supportedLang = supportedLang.filter((lang) => lang.short != short);
     supportedLang.unshift({ language, short });
   }
-  function SwipeLanguages() {
-    langCtx.swipeLanguages();
+  function swapLanguages() {
+    langCtx.swapLanguages();
   }
   return (
     <div className={`${classes["card-container"]} ${classes.readonly}`}>
@@ -29,12 +29,12 @@ export default function TranslatedCard() {
         supportedLang={supportedLang}
         onMoreLanguageSelect={onMoreLanguageSelect}
       />
-      <div className={classes.swipeLang}>
+      <div className={classes.swapLang}>
         <img
-          src={SwipeImage}
-          alt="Swipe Languages"
+          src={swapImage}
+          alt="swap Languages"
           onClick={() => {
-            SwipeLanguages();
+            swapLanguages();
           }}
         />
       </div>
