@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LanguageTranslatorApp/static/css/main.f7813580.css",
-    "main.js": "/LanguageTranslatorApp/static/js/main.ca94c747.js",
+    "main.js": "/LanguageTranslatorApp/static/js/main.776c2eab.js",
     "static/media/logo.svg": "/LanguageTranslatorApp/static/media/logo.6c77836330cbdf859782cade8fadf2e0.svg",
     "static/media/Horizontal_top_left_main.svg": "/LanguageTranslatorApp/static/media/Horizontal_top_left_main.ad304ceb88f756f04190867d89b675a1.svg",
     "static/media/sound_max_fill.svg": "/LanguageTranslatorApp/static/media/sound_max_fill.804ec1f015c9dff2b1a98be3d9a38968.svg",
@@ -9,10 +9,10 @@
     "static/media/Copy.svg": "/LanguageTranslatorApp/static/media/Copy.1574d239cabea85b9f3e140020667da9.svg",
     "static/media/Expand_down.svg": "/LanguageTranslatorApp/static/media/Expand_down.44a9fdc9f2cf76b2674c6d98326f4633.svg",
     "main.f7813580.css.map": "/LanguageTranslatorApp/static/css/main.f7813580.css.map",
-    "main.ca94c747.js.map": "/LanguageTranslatorApp/static/js/main.ca94c747.js.map"
+    "main.776c2eab.js.map": "/LanguageTranslatorApp/static/js/main.776c2eab.js.map"
   },
   "entrypoints": [
     "static/css/main.f7813580.css",
-    "static/js/main.ca94c747.js"
+    "static/js/main.776c2eab.js"
   ]
 }
