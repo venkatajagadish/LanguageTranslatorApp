@@ -14,6 +14,10 @@
 }
 
 @media screen and (max-width: 414px) {
+    .app-component{
+        height: fit-content;
+        overflow-y: scroll;
+    }
     .translator{
         flex-direction: column;
     }
