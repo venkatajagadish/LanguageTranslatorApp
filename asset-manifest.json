@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LanguageTranslatorApp/static/css/main.24a2b9c0.css",
+    "main.css": "/LanguageTranslatorApp/static/css/main.f7813580.css",
     "main.js": "/LanguageTranslatorApp/static/js/main.ca94c747.js",
     "static/media/logo.svg": "/LanguageTranslatorApp/static/media/logo.6c77836330cbdf859782cade8fadf2e0.svg",
     "static/media/Horizontal_top_left_main.svg": "/LanguageTranslatorApp/static/media/Horizontal_top_left_main.ad304ceb88f756f04190867d89b675a1.svg",
@@ -8,11 +8,11 @@
     "index.html": "/LanguageTranslatorApp/index.html",
     "static/media/Copy.svg": "/LanguageTranslatorApp/static/media/Copy.1574d239cabea85b9f3e140020667da9.svg",
     "static/media/Expand_down.svg": "/LanguageTranslatorApp/static/media/Expand_down.44a9fdc9f2cf76b2674c6d98326f4633.svg",
-    "main.24a2b9c0.css.map": "/LanguageTranslatorApp/static/css/main.24a2b9c0.css.map",
+    "main.f7813580.css.map": "/LanguageTranslatorApp/static/css/main.f7813580.css.map",
     "main.ca94c747.js.map": "/LanguageTranslatorApp/static/js/main.ca94c747.js.map"
   },
   "entrypoints": [
-    "static/css/main.24a2b9c0.css",
+    "static/css/main.f7813580.css",
     "static/js/main.ca94c747.js"
   ]
 }
