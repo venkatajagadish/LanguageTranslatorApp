@@ -1,0 +1,27 @@
+.app-component{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.translator{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+    width: 1100px;
+}
+
+@media screen and (max-width: 1050px) {
+    .translator{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .translator{
+        width: 400px;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,51 @@
+.languageButtons{
+    width:100%;
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #4D5562;
+}
+
+.languageButtons button{
+    padding:8px;
+    background-color: transparent;
+    border: none;
+    margin-right: 8px;
+    font-family: inherit;
+    font-size: inherit;
+    color:#F9FAFB;
+}
+
+.languageButtons .selected{
+    background-color: #4D5562;
+    border-radius: 8px;
+}
+
+.moreLanguages{
+    position:absolute;
+    height:auto;
+    width: auto;
+    background-color: #4D5562;
+    border-radius: 12px;
+    display: none;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreLanguages button{
+    border-radius: 8px;
+}
+
+.translate{
+    transform: rotate(180deg);
+}
+.showMoreLanguages{
+    display: flex;
+}
