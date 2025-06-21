@@ -26,12 +26,12 @@ export const LanguageContext = createContext({
 export default function TranslationProvider({ children }) {
   const [fromLanguage, setFromLanguage] = useState("en");
   const [toLanguage, setToLanguage] = useState("fr");
-  const [fromText, setFromText] = useState("");
+  const [fromText, setFromText] = useState("Hello, how are you");
   const [detectLanguage, setDetectLanguage] = useState({
     isdetectLanguage: false,
     detectedLanguage: null,
   });
-  const { data, isLoading, isError, error } = useQuery({
+  const { data } = useQuery({
     queryFn: ({ signal }) =>
       fetchTranslation({
         signal,
